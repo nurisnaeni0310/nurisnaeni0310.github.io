@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <style>
+        .carousel-item {
+            height: 65vh;
+            min-height: 350px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">One Ok Rock.id</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about_us">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#our_album">Our Album</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start header -->
+    <header>
+
+        <div id="home" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active"
+                    style="background-image: url('https://www.oneokrock.com/wp-content/themes/oor_sp/images/common/ogimage.png')">
+                    <div class="carousel-caption">
+                        <h5>Japanese Rock Band from Tokyo</h5>
+                        <h6>Since 2005.</h6>
+                    </div>
+                </div>
+                <div class="carousel-item"
+                    style="background-image: url('https://files.rocksound.tv/assets/uploads/oor_wastednights.png')">
+                    <div class="carousel-caption">
+                        <h5>New Album in 2022</h5>
+                        <h2>"LUXURY DISEASE".</h2>
+                    </div>
+                </div>
+                <div class="carousel-item"
+                    style="background-image: url('https://1.bp.blogspot.com/-YGcZJlMTtnI/WEN1NQiEKLI/AAAAAAAABPY/m3qJzzBL0SMhjGuwrArEu8RI9LKC251OACLcB/s1600/1.PNG')">
+                    <div class="carousel-caption">
+                        <p>TAKA | TORU | TOMOYA | RYOTA</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- Page Content -->
+    <section id="about_us" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-6">About us</h1>
+                    <hr class="w-25 mx-auto">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12 text-start">
+                    <p>One Ok Rock adalah band rock Jepang yang dibentuk tahun 2005 di Tokyo. Band ini beranggotakan
+                        Taka (vokalis), Toru (gitaris), Ryota (bassis), dan Tomoya (drummer).
+                        <br>
+                        Nama band, One Ok Rock, berasal dari frasa bahasa Inggris one o'clock yang berarti pukul 1
+                        tepat. Mereka dulunya berlatih band setiap akhir pekan pukul 1.00 dini hari, sehingga 1 o'clock
+                        dijadikan nama band mereka. Bahasa Jepang tidak mengenal perbedaan antara r dan l sehingga
+                        o'clock disebut o'crock; oc diganti menjadi OK hingga akhirnya ok rock dipakai mereka sebagai
+                        nama band. Selain itu, nama One Ok Rock dapat ditulis sebagai "10969" (one-o-ku-ro(ku)-ku).
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <p>Band ini dibentuk oleh Toru Yamashita yang ingin mendirikan band ketika masih murid sekolah
+                        menengah atas. Ia mengajak seorang kawan bernama Ryota Kohama, temannya di grup tari hip hop
+                        bernama Heads. Ryota disuruhnya belajar main bass.
+                        <br>
+                        Setelah melihat permainan Taka Moriuchi bersama band lagu daur ulang, Toru mengajaknya untuk
+                        bergabung. Tomoya Kanki sudah melengkapi formasi awal mereka sebagai pemain drum sejak tahun
+                        2006, tapi dia baru dijadikan anggota resmi ketika band ini melakukan debutnya pada tahun 2007.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <h2 class="text-center"> One Ok Rock Fact!</h2>
+                <p>Sang vokalis Taka Hiro Moriuchi bersama bandnya pernah mengisi soundtrack film pada tahun 2012, lagu mereka yang berjudul 'The Beginning' dijadikan sebagai soundtrack film Samurai X versi live action.  Kemudian, di tahun 2014 lagu Mighty Long Fall untuk sekuel Rurouni Kenshin Kyoto Inferno dan lagu 'Heartache' untuk sekuel Rurouni Kenshin The Legend Ends.
+<br>
+                    Sementara lagu 'Clock Strike' menjadi soundtrack game di PS3 dan PS4 yang berjudul Ryu ga Gotoku Ishin. Setelah itu, giliran lagu Be The Light untuk mengisi film animasi 3D berjudul 'Space Pirate Captain Harlock'.
+                    Lagu terbaru ONE OK ROCK pun yang dirilis tahun 2019 yang ikut mengisi soundtrack film seperti Wasted Night (film Kingdom) dan In The Stars (film Fortuna's Eye).</p>
+                    <br>
+                    <p>ONE OK OCK pada tahun 2017 sukses sebagai musisi pertama asal Jepang yang menembus satu miliar streaming di musik Spotify. Lagu mereka memang sudah ada di Spotify sejak tahun 2012, hingga kini lagu mereka telah menembus 10 miliar streaming.
+                        Penghargaan lainnya, di ajang MTV Europe Music Award pada tahun 2016 mereka berhasil menjadi pemenang di kategori Best Japanese Act dan kategori Eastern Breakthrough Male Band di ajang Classic Rock Roll of Honour Awards,dan masih banyak lagi penghargaan lainnya.</p>
+                        <br>
+                        <p>Setelah sukses di dalam negeri, ONE OK ROCK melebarkan sayapnya untuk berkolaborasi dengan band dan musisi Internasional. Seperti lagu 'Listen' yang sempat laku di pasaran dengan duetnya bersama Avril Lavigne.
+                            Mereka juga kolaborasi dengan musisi ternama lainnya seperti Simple Plan dengan lagu 'Summer Paradise,, lagu 'In The Stars' dengan Kiiara, lagu 'Jaded' dengan Alex Gaskarth dan di Album 5XXXV, lagu 'Paper Planes' dengan Kellin Quinn serta lagu 'Decision' dengan Tyler Carter.</p>
+                            <br>
+                            <p>Setelah puluhan tahun berada di naungan agensi Amuse Inc, ONE OK ROCK Taka dan bandnya memutuskan untuk keluar dan membuat perusahaan sendiri yang bernama 10969 Inc.
+                                Keputusan tersebut dihormati dan di dukung oleh pihak Amuse Inc. Pihak Amuse Inc mengatakan, jika ONE OK ROCK dengan kantornya sendiri akan menghadapi panggung yang lebih besar dalam rencana aksi Internasional mereka.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- kode list album -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <h1 class id="our_album">ONE OK ROCK
+            <br>
+            <small>Top Album</small>
+        </h1>
+
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top"
+                            src="https://i.scdn.co/image/ab67616d0000b2730f94f53a1c9c60d953ffd2f2" width="700px"
+                            alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="https://open.spotify.com/album/0p1YL9nzIuKTonZH6Gq58i?si=5aa867d0c09947de">Ambitions</a>
+                        </h4>
+                        <p class="card-text">Ambitions is the eighth studio album by Japanese rock band One Ok Rock. It was released on January 11, 2017 for the Japanese version album under the Japanese label A-Sketch and on January 13, 2017 for the international version under the American label Fueled by Ramen. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top"
+                            src="https://cdns-images.dzcdn.net/images/cover/8690fb3799c2df8839b945160c341f1a/350x350.jpg"
+                            alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="https://open.spotify.com/album/5yyxuxoqWqmYIJcORvvnpL?si=6a950cccde9f4dc7">35XXXV</a>
+                        </h4>
+                        <p class="card-text">35xxx is the seventh studio album by the Japanese band One OK Rock. It was released on February 11, 2015.This is their first album recorded abroad, primarily in the US. The song "Mighty Long Fall" was the theme song of the 2014 sequel film Rurouni Kenshin: Kyoto Inferno</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top"
+                            src="https://upload.wikimedia.org/wikipedia/en/3/3c/One_Ok_Rock_%E2%80%93_Eye_of_the_Storm.png"
+                            alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="https://open.spotify.com/album/1obI3635eoYwWYhGs2vEeP?si=c14fc7bdee2740f9">Eye Of The Storm</a>
+                        </h4>
+                        <p class="card-text">Eye of the Storm is the ninth studio album by Japanese rock band One Ok Rock. It was released on February 13, 2019, in Japan through A-Sketch, and on February 15, 2019, in other countries through Fueled by Ramen</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top"
+                            src="https://cdns-images.dzcdn.net/images/cover/42b4a6a62f00787e8bc8e5c6fc471699/264x264.jpg"
+                            alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="https://open.spotify.com/album/2soV9ZWFpAWupuNDQQM4Kr?si=863a6923b0df413f">Cange!</a>
+                        </h4>
+                        <p class="card-text">Pada tahun 2019 One Ok Rock Kmebali merilis single album yang berjudul 'change'</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top"
+                            src="https://i.scdn.co/image/ab67616d0000b2733e4b149dd3110f1432bfeca0" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="https://open.spotify.com/album/4OKBuE9F8MTCV7nnsBRcsK?si=AAOIws69RHq_hFrxOhebGw">Niche Syndrome</a>
+                        </h4>
+                        <p class="card-text">Niche Syndrome (Niche シンドローム) is the fourth studio album by Japanese rock band One Ok Rock, released on June 9, 2010. It was released as a normal CD-only edition[3] and a limited CD+DVD edition</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top"
+                            src="https://i.scdn.co/image/ab67616d00001e021084ce965d5e2d358934198e" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="https://open.spotify.com/album/7bR908SDBENoC7rqC0k4h4?si=ea971ad82d544e15">Luxury Disease</a>
+                        </h4>
+                        <p class="card-text"> One Ok Rock telah memutuskan bahwa mereka akan merilis album baru “Luxury Disease” pada 9 September. Album ini diproduksi oleh Rob Cavallo, yang telah mengerjakan banyak karya rock, dan merupakan album yang berisi lagu-lagu yang dibuat bekerja sama dengan berbagai musisi di luar negeri.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /.row -->
+
+        <!-- Pagination -->
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#home">1</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#about_us">2</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#our_album">3</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+    <!-- end page content -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
